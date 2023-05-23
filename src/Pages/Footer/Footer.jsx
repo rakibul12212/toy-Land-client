@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='nun'>
         <div className='grid grid-cols-5 p-5'>
         <div>
             <div>
@@ -40,14 +40,14 @@ const Footer = () => {
             <p><a href="/">Promotional Offers</a></p> 
         </div>
 
-        <div>
+        <div className='transition duration-150 ease-in-out'>
            <p className='text-bold text-2xl'>Customer Care</p>
-           <p><a href="/signin">Signin</a></p>
+           <p ><a href="/signin">Signin</a></p>
             <p><a href="/">WishList</a></p>
             <p><a href="/signin">Order Tracking</a></p>
             <p><a href="/">My account</a></p>
             <p><a href="/">FAQ</a></p>
-            <p><a href="/">Contact us</a></p> 
+            <p ><a href="/">Contact us</a></p> 
         </div>
 
         <div>
@@ -63,7 +63,7 @@ const Footer = () => {
              <p>All Rights Reserved @ ToyLand 2023</p>
             </div>
             <div>
-             <p>Terms & Conditions  <span>Claim</span>  <span>Privacy & Policy</span></p>
+             <p>Terms & Conditions  <span className='pl-5'>Claim</span>  <span className='pl-5'>Privacy & Policy</span></p>
             </div>
     </div>
     </div>
