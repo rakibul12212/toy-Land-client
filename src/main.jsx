@@ -16,6 +16,7 @@ import Blogs from './Pages/Blogs/Blogs.jsx';
 import Navbar from './Pages/Navbar/Navbar.jsx';
 import SignIn from './Registerpages/SignIn/SignIn.jsx';
 import SignUp from './Registerpages/SignUp/SignUp.jsx';
+import Footer from './Pages/Footer/Footer.jsx';
 
 
 
@@ -55,7 +56,13 @@ const router = createBrowserRouter([
   {
     path:"/signup",
     element:<SignUp></SignUp>
-  }
+  },
+  
+    {
+      path:"/footer",
+      element:<Footer></Footer>
+    },
+  
 
 ]);
 

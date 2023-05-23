@@ -8,7 +8,7 @@ const SignUP = () => {
             <img src="https://images.unsplash.com/photo-1603558431750-dfa36513aee6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt=""  className='h-full p-5 rounded'/>
           </div>
           <div>
-            <h1 className='text-bold text-3xl text-text-slate-600 p-5'> Register</h1>
+            <h1 className='text-bold text-3xl text-slate-600 p-5'> Register</h1>
             <h3 className='p-5 text-slate-400'>Manage all your toys efficiently.<br></br><span>Let's get you all set up so you can verify your personal account and begin setting up your profile</span></h3>
             
             <div className='flex'>

@@ -10,8 +10,8 @@ const SignIn = () => {
             <div >
             <div className='p-5'>
                 <img src="logo.jpg" alt="logo"  className='w-6 '/>
-                <h1 className='text-bold'>Hello Again!</h1>
-                <p>Wellcome back you've been missed!</p>
+                <h1 className='text-bold text-3xl text-slate-600'>Hello Again!</h1>
+                <p className='text-slate-400'>Wellcome back you've been missed!</p>
             </div>
             <div className="form-control w-full max-w-xs p-5">   
                 <input type="text" placeholder="user name" className="input input-bordered w-full max-w-xs m-1" />
@@ -24,18 +24,15 @@ const SignIn = () => {
                 </div>
               <p className='text-green-400 p-5'>forget password?</p>
             </div>
-            <div className='m-5'>
-              <button className="btn btn-success text-white m-2">Sign In</button>
+            <div className='p-6'>
+              <button className="btn btn-success text-white ">Sign In</button>
             </div>
-            <p>Don't have an account? <span className='text-green-400'>Sign up for free</span></p>
-
-
-
-
-            <p>Or connect with:<span className='w-32 grid grid-cols-2 gap-4 place-content-center'>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="facebook icon" />
-            </span></p>
+           <div className='p-5'>
+               <p>Don't have an account? <span className='text-green-400'>Sign up for free</span></p>
+               <p>Or connect with:<span className='w-32 grid grid-cols-2 gap-4 place-content-center'>
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" />
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="facebook icon" /></span></p>
+           </div>
             
         </div>
         </div>
