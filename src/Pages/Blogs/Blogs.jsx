@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5 bg-orange-50">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5 bg-purple-100">
       <div className="card w-full bg-base-100 shadow-xl image-full">
         <figure><img src="https://images.unsplash.com/photo-1647296848101-4842ad263d25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=404&q=80" alt="photo"  className='w-full'/></figure>
         <div className="card-body">

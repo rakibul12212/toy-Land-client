@@ -53,8 +53,8 @@ const Footer = () => {
         <div>
         <p className='text-bold text-2xl'>Customer Care</p>
         <p className='text-sm p-2'>Subscribe to our weekly Newwsletter and receive updates via email.</p>
-        <input type="email" placeholder="email@example.com" className="input input-bordered w-full max-w-xs "/>
-        <button className="btn btn-success text-white ">Subscribe</button>
+        <input type="email" placeholder="email@example.com" className="input input-bordered w-full max-w-xs m-2"/>
+        <button className="btn btn-success text-white m-2">Subscribe</button>
         </div>
     </div>
 

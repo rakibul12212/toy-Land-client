@@ -7,6 +7,7 @@ import Main from './Layout/Main';
 import Addatoy from './Pages/Addatoy/Addatoy';
 import Alltoys from './Pages/Alltoys/Alltoys';
 import Blogs from './Pages/Blogs/Blogs';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
@@ -55,11 +56,15 @@ function App() {
     },
     {
       path:"/footer",
-       element:<Footer></Footer>
+      element:<Footer></Footer>
     },
   {
     path:"/header",
-       element:<Header></Header>
+    element:<Header></Header>
+  },
+  {
+    path:"*",
+    element:<ErrorPage></ErrorPage>
   }]
     
     }
