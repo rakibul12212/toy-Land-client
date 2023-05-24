@@ -22,32 +22,32 @@ const Footer = () => {
 
         <div>
            <p className='text-bold text-2xl'>Company</p>
-           <p><a href="/">Home</a></p>
-            <p><a href="/">About</a></p>
-            <p><a href="/blogs">Blogs</a></p>
-            <p><a href="/addatoy">Add A Toy</a></p>
-            <p><a href="/alltoys">All Toys</a></p>
-            <p><a href="/mytoys">My Toys</a></p> 
+           <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/" >Home</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">About</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/blogs">Blogs</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/addatoy">Add A Toy</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/alltoys">All Toys</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/mytoys">My Toys</a></p> 
         </div>
 
         <div>
            <p className='text-bold text-2xl'>Services</p>
-           <p><a href="/">Order tracking</a></p>
-            <p><a href="/">WishList</a></p>
-            <p><a href="/signin">Signin</a></p>
-            <p><a href="/">My account</a></p>
-            <p><a href="/">Terms & Conditions</a></p>
-            <p><a href="/">Promotional Offers</a></p> 
+           <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">Order tracking</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">WishList</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/signin">Signin</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">My account</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">Terms & Conditions</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">Promotional Offers</a></p> 
         </div>
 
         <div className='transition duration-150 ease-in-out'>
            <p className='text-bold text-2xl'>Customer Care</p>
-           <p ><a href="/signin">Signin</a></p>
-            <p><a href="/">WishList</a></p>
-            <p><a href="/signin">Order Tracking</a></p>
-            <p><a href="/">My account</a></p>
-            <p><a href="/">FAQ</a></p>
-            <p ><a href="/">Contact us</a></p> 
+           <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/signin">Signin</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">WishList</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/signin">Order Tracking</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">My account</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">FAQ</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">Contact us</a></p> 
         </div>
 
         <div>
@@ -59,8 +59,8 @@ const Footer = () => {
     </div>
 
     <div className='bg-purple-900 text-white flex p-5'>
-            <div>
-             <p>All Rights Reserved @ ToyLand 2023</p>
+            <div >
+             <p >All Rights Reserved @ ToyLand 2023</p>
             </div>
             <div>
              <p>Terms & Conditions  <span className='pl-5'>Claim</span>  <span className='pl-5'>Privacy & Policy</span></p>

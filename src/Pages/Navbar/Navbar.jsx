@@ -1,32 +1,27 @@
 import './Navbar.css'
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <>
        <div>
-       <div className="navbar bg-purple-900 text-white ">
+       <div className="navbar bg-purple-700 text-white ">
                   <div className="flex-1">
                     <img src="logo.jpg" alt="logo" className='w-6'/>
-                    <a className="btn btn-ghost normal-case text-xl">ToyLand</a>
+                    <Link to="/"><p className='text-bold text-2xl'>ToyLand</p></Link>
                   </div>
               <div>
 
                   <div className="flex-none">
-                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li tabIndex={0}>
-                             <ul className="p-2 bg-base-100">
-                               <li><a>Regular Car</a></li>
-                               <li><a>Sports Car</a></li>
-                               <li><a>Police Car</a></li>
-                               <li><a>Mini Fire Truck</a></li>
-                             </ul>
-                        </li>
-                              <li><a>Add A Toy</a></li>
-                              <li><a>My Toy</a></li>
-                              <li><a>Blogs</a></li>
+                     <ul className="hidden md:flex gap-8">
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/home"><a>Home</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/alltoys"><a>All Toys</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/addatoy"><a>Add A Toy</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/mytoys"><a>My Toys</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/blogs"><a>Blogs</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/aboutus"><a>About us</a></Link></li>
                       </ul>
                 </div>
             </div>
@@ -35,7 +30,7 @@ const Navbar = () => {
       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
     </button>
 
-  <div className="flex-none">
+  <div className="flex-nonehidden md:flex">
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle">
         <div className="indicator">

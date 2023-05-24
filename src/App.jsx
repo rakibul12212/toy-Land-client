@@ -4,6 +4,7 @@ import { Navbar } from 'flowbite-react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
 import Main from './Layout/Main';
+import AboutUs from './Pages/AboutUs/AboutUs';
 import Addatoy from './Pages/Addatoy/Addatoy';
 import Alltoys from './Pages/Alltoys/Alltoys';
 import Blogs from './Pages/Blogs/Blogs';
@@ -15,7 +16,7 @@ import Mytoys from './Pages/Mytoys/Mytoys';
 import SignIn from './Registerpages/SignIn/SignIn';
 import SignUp from './Registerpages/SignUp/SignUp';
 
-//import Alltoys from './Pages/Alltoys/Alltoys'
+
 
 function App() {
   const router = createBrowserRouter([
@@ -65,6 +66,10 @@ function App() {
   {
     path:"*",
     element:<ErrorPage></ErrorPage>
+  },
+  {
+    path:"/aboutus",
+    element:<AboutUs></AboutUs>
   }]
     
     }
