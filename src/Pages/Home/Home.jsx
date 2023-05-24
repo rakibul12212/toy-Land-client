@@ -1,13 +1,19 @@
 import React from 'react';
+import Blogs from '../Blogs/Blogs';
 import Header from '../Header/Header';
+
+
+
+
 import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
+        <>
+        <Header></Header>
+        <Blogs></Blogs>
 
-        </div>
+        </>
     );
 };
 

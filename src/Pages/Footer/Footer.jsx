@@ -3,8 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='nun'>
-        <div className='grid grid-cols-5 p-5'>
+    <div className='nun bg-purple-200'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 p-5'>
         <div>
             <div>
                 <div className='flex'>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className='bg-black text-white flex p-10'>
+    <div className='bg-purple-900 text-white flex p-5'>
             <div>
              <p>All Rights Reserved @ ToyLand 2023</p>
             </div>
@@ -72,3 +72,9 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
