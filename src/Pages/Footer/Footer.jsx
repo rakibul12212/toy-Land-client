@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className='bg-purple-900 text-white flex p-5'>
+    <div className='bg-purple-900 text-white flex p-5 justify-between'>
             <div >
              <p >All Rights Reserved @ ToyLand 2023</p>
             </div>

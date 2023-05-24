@@ -1,8 +1,11 @@
 import React from 'react';
 
 const Offer = () => {
+
   return (
-    <div className="bg-slate-100 grid md:grid-cols-2 gap-4 p-20">
+
+<>
+<div className="bg-slate-100 grid md:grid-cols-2 gap-4 p-20">
       <div className="p-5">
         <h1 className="text-2xl p-5">Today's Hot Offer</h1>
         <h1 className="text-bold text-4xl text-red-500 p-5">Summer Sale</h1>
@@ -42,6 +45,7 @@ const Offer = () => {
         <img src="https://cdn-icons-png.flaticon.com/512/6688/6688164.png" alt="" />
       </div>
     </div>
+</> 
   );
 };
 

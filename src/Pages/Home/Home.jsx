@@ -5,6 +5,7 @@ import Feature from '../Feature/Feature';
 import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
+import ShoppingItems from '../ShoppingItems/ShoppingItems';
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
         <>
         <Header></Header>
         <Gallery></Gallery>
+        <ShoppingItems></ShoppingItems>
         <Offer></Offer>
         <Blogs></Blogs>
         <Feature></Feature>
