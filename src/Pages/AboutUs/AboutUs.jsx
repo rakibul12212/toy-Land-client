@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <>
             <div>
-  <h1 className="text-bold text-4xl text-center p-5">Contact Us</h1>
+  <h1 className="text-bold text-4xl text-center p-10 bg-purple-50">Contact Us</h1>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-4">
   <div>
@@ -24,6 +24,7 @@ const AboutUs = () => {
       <li>More products at lower prices.</li>
       <li>Connect customers with the power of eCommerce at all times.</li>
     </ul>
+    <button className='p-2 bg-slate-300 text-sm hover:bg-purple-50 '>get support<br /><span className='text-bold'>+123-456-789-10</span></button>
   </div>
 </div>
 
