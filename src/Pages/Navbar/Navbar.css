@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+  }

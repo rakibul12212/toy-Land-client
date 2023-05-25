@@ -21,33 +21,42 @@ const ShoppingItems = () => {
 
   return (
     <>
-      <div >
-        <h2 className='p-10 text-bold text-3xl bg-purple-50 mt-10'>Shopping List</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-2">
-          {itemsToShow.map(item => (
-            <div key={item.id} className="card h-82 w-72 p-5 bg-base-100 shadow-xl">
-              <figure>
-                <img src={item.img} alt='' className="w-full h-auto" />
-              </figure>
-              <div className="card-body p-4">
-                <p className="mb-2"><span className='text-bold'>Product Price:</span> {item.price}$</p>
-                <p className="mb-2"><span className='text-bold'>Product Name:</span> {item.name}</p>
-                <p className="mb-2"><span className='text-bold'>Product Rating:</span> {item.rating}</p>
-                <div className="card-actions flex justify-end">
-                  <button className="btn btn-success bg-purple-300 hover:bg-purple-700 text-white">View Details</button>
-                </div>
-              </div>
-            </div>
-          ))}
+
+<h2 className="p-10 font-bold text-3xl bg-slate-200 mt-10">Shopping List</h2>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-2 bg-slate-50">
+  {itemsToShow.map((item) => (
+    <div key={item.id} className="card h-82 w-72 p-5 bg-base-100 shadow-xl">
+      <div className="max-w-sm bg-slate-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img className=" h-48 w-64 rounded-t-lg p-5" src={item.img} alt="" />
+        </a>
+        <div className="p-5">
+          <p className="mb-3 text-gray-700 dark:text-gray-400">
+          <span className='text-bold'>Name:</span> {item.name}
+          </p>
+          <p className="mb-3 text-gray-700 dark:text-gray-400">
+          <span className='text-bold'>Price:</span> {item.price}$
+          </p>
+          <p className="mb-3 text-gray-700 dark:text-gray-400">
+          <span className='text-bold'>Rating:</span> {item.rating}
+          </p>
+          <div className="card-actions flex justify-end">
+                   <button className="btn bg-slate-500 hover:bg-slate-700 text-white">View Details</button>
+                 </div>
         </div>
-        {!showAllItems && (
-          <div className=" justify-end">
-            <button className="btn btn-success bg-purple-300 hover:bg-purple-700 text-white m-5 " onClick={handleSeeAllClick}>
+      </div>
+    </div>
+    
+  ))}
+</div>
+      {!showAllItems && (
+           <div className=" flex justify-center">
+             <button className="btn bg-slate-500 hover:bg-slate-700 text-white m-5 " onClick={handleSeeAllClick}>
             See All
           </button>
-          </div>
-        )}
-      </div>
+           </div>
+         )}
+    
     </>
   );
 };

@@ -3,12 +3,12 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='nun bg-purple-200'>
+    <div className='nun bg-slate-300'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 p-5'>
         <div>
             <div>
                 <div className='flex'>
-                    <img src="logo.jpg" alt="logo" className='w-6'/>
+                    <img src="logo.jpg" alt="logo" className='w-8'/>
                     <p className='text-bold text-2xl'>ToyLand</p>
                 </div>
                 <p className='text-sm p-2'>Toy Land is a vibrant website offering a wide range of toys, games, and accessories. </p>
@@ -54,11 +54,11 @@ const Footer = () => {
         <p className='text-bold text-2xl'>Customer Care</p>
         <p className='text-sm p-2'>Subscribe to our weekly Newwsletter and receive updates via email.</p>
         <input type="email" placeholder="email@example.com" className="input input-bordered w-full max-w-xs m-2"/>
-        <button className="btn btn-success text-white m-2">Subscribe</button>
+        <button className="btn btn-active btn-ghost text-white m-2">Subscribe</button>
         </div>
     </div>
 
-    <div className='bg-purple-900 text-white flex p-5 justify-between'>
+    <div className='bg-slate-900 text-white flex p-5 justify-between'>
             <div >
              <p >All Rights Reserved @ ToyLand 2023</p>
             </div>

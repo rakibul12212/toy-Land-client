@@ -1,8 +1,9 @@
 import React from 'react';
-import ContactUs from '../../ContactUs/ContactUs';
+
 import AboutUs from '../AboutUs/AboutUs';
 import Blogs from '../Blogs/Blogs';
-import Feature from '../Feature/Feature';
+import ContactUs from '../ContactUs/ContactUs';
+
 import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
@@ -22,9 +23,9 @@ const Home = () => {
         <ShoppingItems></ShoppingItems>
         <Offer></Offer>
         <Blogs></Blogs>
-        <Feature></Feature>
+        
         <ContactUs></ContactUs>
-        {/* <AboutUs></AboutUs> */}
+         <AboutUs></AboutUs>
 
         </>
     );
