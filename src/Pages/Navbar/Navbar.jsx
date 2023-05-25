@@ -22,6 +22,7 @@ const Navbar = () => {
                         <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/mytoys"><a>My Toys</a></Link></li>
                         <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/blogs"><a>Blogs</a></Link></li>
                         <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/aboutus"><a>About us</a></Link></li>
+                        <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><Link to="/contactus"><a>Contact Us</a></Link></li>
                       </ul>
                 </div>
             </div>

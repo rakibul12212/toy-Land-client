@@ -4,7 +4,7 @@ import './AboutUs.css'
 const AboutUs = () => {
     return (
         <>
-            <div>
+           <div>
   <h1 className="text-bold text-4xl text-center p-10 bg-purple-50">Contact Us</h1>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 p-10 gap-4">

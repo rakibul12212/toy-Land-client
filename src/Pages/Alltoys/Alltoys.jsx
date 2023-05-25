@@ -3,9 +3,9 @@ import './Alltoys.css'
 
 const Alltoys = () => {
     return (
-        <div>
-            <h1>this is all toys page</h1>
-        </div>
+        <>
+           <p>this is all toys page</p>
+        </>
     );
 };
 

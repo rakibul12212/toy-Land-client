@@ -3,6 +3,7 @@
 import { Navbar } from 'flowbite-react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
+import ContactUs from './ContactUs/ContactUs';
 import Main from './Layout/Main';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Addatoy from './Pages/Addatoy/Addatoy';
@@ -70,6 +71,10 @@ function App() {
   {
     path:"/aboutus",
     element:<AboutUs></AboutUs>
+  },
+  {
+    path:"/contactus",
+    element:<ContactUs></ContactUs>
   }]
     
     }

@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactUs from '../../ContactUs/ContactUs';
 import AboutUs from '../AboutUs/AboutUs';
 import Blogs from '../Blogs/Blogs';
 import Feature from '../Feature/Feature';
@@ -22,8 +23,8 @@ const Home = () => {
         <Offer></Offer>
         <Blogs></Blogs>
         <Feature></Feature>
-        
-        <AboutUs></AboutUs>
+        <ContactUs></ContactUs>
+        {/* <AboutUs></AboutUs> */}
 
         </>
     );
