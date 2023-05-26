@@ -8,6 +8,7 @@ import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
 import ShoppingItems from '../ShoppingItems/ShoppingItems';
+import TopBrand from '../TopBrand/TopBrand';
 
 
 
@@ -23,9 +24,9 @@ const Home = () => {
         <ShoppingItems></ShoppingItems>
         <Offer></Offer>
         <Blogs></Blogs>
-        
         <ContactUs></ContactUs>
          <AboutUs></AboutUs>
+         <TopBrand></TopBrand>
 
         </>
     );

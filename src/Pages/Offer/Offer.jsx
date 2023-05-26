@@ -38,7 +38,7 @@ const Offer = () => {
             </div>
           </div>
           <div className="p-2 md:p-5">
-            <button className="btn btn-success bg-purple-300 hover:bg-purple-700 text-white">Buy now</button>
+          <button className="btn bg-slate-500 hover:bg-slate-700 text-white">View Toys</button>
           </div>
         </div>
         <div >

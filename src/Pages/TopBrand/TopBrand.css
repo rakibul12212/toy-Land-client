@@ -1,0 +1,23 @@
+.App {
+    margin-top: 50px;
+    text-align: center;
+    /* direction: right;
+    speed:100;
+    delay:5; */
+  }
+  
+  .title {
+    margin-bottom: 50px;
+  }
+  
+  .image_wrapper {
+    margin: 0px 30px;
+    
+    /* height: 200px;
+    width: 200px; */
+  }
+  
+  .image_wrapper img {
+    width: 80%;
+  }
+

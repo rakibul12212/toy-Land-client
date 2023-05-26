@@ -11,7 +11,7 @@ const Navbar = () => {
 <nav className="bg-slate-300 border-gray-200 dark:bg-gray-900 sticky z-100 top-0">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <Link to="/" className="flex items-start">
-      <img src="/public/logo.jpg" className="h-8 mr-3" alt="toyland Logo" />
+      <img src="logo.jpg" className="h-8 mr-3" alt="toyland Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ToyLand</span>
   </Link>
   <div className="flex items-center md:order-2">
