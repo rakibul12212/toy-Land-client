@@ -25,9 +25,8 @@ const Home = () => {
         <Offer></Offer>
         <Blogs></Blogs>
         <ContactUs></ContactUs>
-         <AboutUs></AboutUs>
-         <TopBrand></TopBrand>
-
+        <AboutUs></AboutUs>
+        <TopBrand></TopBrand>
         </>
     );
 };

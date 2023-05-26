@@ -12,7 +12,7 @@ const TopBrand = () => {
         </div>
 
         <div className="App p-10">
-          {/* <Marquee > */}
+          
           <Marquee direction="right" speed={100} delay={5}>
             <div className="image_wrapper">
               <img src="/src/assets/img1.png" alt="" />
@@ -42,7 +42,7 @@ const TopBrand = () => {
             <div className="image_wrapper">
               <img src='/src/assets/img10.png' alt="" />
             </div>
-          {/* </Marquee> */}
+          
           </Marquee>
         </div>
       </div>
