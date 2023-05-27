@@ -23,12 +23,7 @@ const Alltoys = () => {
 
     return (
         <>
-          {/* <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-col-4 justify-items-center gap-4">
-            {items
-              .map(item => (
-                <ShowItems key={item._id} item={item} />
-              ))}
-          </div> */}
+         
 
         <AllToysPage></AllToysPage>
         </>

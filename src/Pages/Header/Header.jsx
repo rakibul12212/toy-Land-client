@@ -7,26 +7,26 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-<div className="h-56 sm:h-64 xl:h-80 2xl:h-96 mb-10 ">
+<div className="h-56 sm:h-64 xl:h-80 2xl:h-96  ">
     <Carousel >
       <img
-        src="https://rare-gallery.com/uploads/posts/105503-cars-3-4k-lightning-mcqueen-poster.jpg"
+        src="https://wallpaperaccess.com/full/3715894.jpg"
         alt="..."
       /> 
       <img
-        src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        src="https://getwallpapers.com/wallpaper/full/5/2/c/848983-funny-car-wallpaper-1920x1200-for-1080p.jpg"
         alt="..."
       />
       <img
-        src="https://images.unsplash.com/photo-1494905998402-395d579af36f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        src="https://wallpaperaccess.com/full/470201.jpg"
         alt="..."
       />
       <img
-        src="https://images.unsplash.com/photo-1573950940509-d924ee3fd345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1223&q=80"
+        src="https://i.pinimg.com/originals/b1/ce/74/b1ce74343cc8f445caca5faca6949d94.jpg"
         alt="..."
       />
       <img
-        src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        src="https://wallpaperaccess.com/full/1303289.jpg"
         alt="..."
       />
     </Carousel >

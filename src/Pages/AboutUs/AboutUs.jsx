@@ -24,7 +24,7 @@ const AboutUs = () => {
       <li>More products at lower prices.</li>
       <li>Connect customers with the power of eCommerce at all times.</li>
     </ul>
-    <div className='animate-bounce p-2'>
+    <div className=' p-2'>
     <button className='p-2 bg-slate-300 text-sm hover:bg-purple-50 '>get support<br /><span className='text-bold'>+123-456-789-10</span></button>
     </div>
   </div>

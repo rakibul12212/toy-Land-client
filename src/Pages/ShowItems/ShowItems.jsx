@@ -12,7 +12,7 @@ const ShowItems = ({item}) => {
     return (
         
 
-      <div className="max-w-sm ">
+      <div className="max-w-sm  bg-slate-100">
       <Card>
         <img className="h-52 w-72 rounded " src={img} alt="Meaningful alt text for an image that is not purely decorative" />
         
@@ -34,12 +34,12 @@ const ShowItems = ({item}) => {
           </span>
         </div>
         <div className="flex items-center justify-between">
-          <span className="text-3xl font-bold text-gray-900 dark:text-white">
-            ${price}
+          <span className="text-3xl  text-gray-900 dark:text-white">
+            <span className='text-4xl'>$</span>{price}
           </span>
           <a
             href="#"
-            className="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="btn bg-slate-500 hover:bg-slate-700 text-white"
           >
             Add to cart
           </a>

@@ -7,7 +7,7 @@ const Offer = () => {
       <div className="bg-slate-100 grid md:grid-cols-2 gap-4 p-5 md:p-20">
         <div className="p-5">
           <h1 className="text-2xl md:text-4xl p-2 md:p-5">Today's Hot Offer</h1>
-          <h1 className="text-bold text-4xl md:text-6xl text-red-500 p-2 md:p-5 animate-bounce">Summer Sale</h1>
+          <h1 className="text-bold text-4xl md:text-6xl text-red-500 p-2 md:p-5 ">Summer Sale</h1>
           <p className="p-2 md:p-5">
             Cur tantas regiones barbarorum obiit, tot maria transmist summo bono fruitur id est voluptate barbarorum
           </p>
