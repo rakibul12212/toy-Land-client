@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+// import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import './ShoppingItems.css';
 
 const ShoppingItems = () => {
@@ -23,12 +24,13 @@ const ShoppingItems = () => {
   return (
     <>
 
+
 <h2 className="p-10 font-bold text-3xl bg-slate-200 mt-10">Shopping List</h2>
 
 <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
   <ul className="flex flex-wrap -mb-px">
   <li className="mr-2 mb-2 sm:mr-4">
-      <p className="inline-block p-4 border-b-2 border-transparent rounded-t-lg text-black text-bold text-xl">Catagory:</p>
+      <p className="inline-block p-4 ps-10 border-b-2 border-transparent rounded-t-lg text-black text-bold text-xl">Catagory:</p>
     </li>
     <li className="mr-2 mb-2 sm:mr-4">
       <Link to="" className="inline-block p-5 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Sports Car</Link>

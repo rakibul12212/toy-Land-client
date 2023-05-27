@@ -19,6 +19,7 @@ import './Home.css'
 const Home = () => {
     return (
         <>
+       
         <Header></Header>
         <Gallery></Gallery>
         <ShoppingItems></ShoppingItems>
