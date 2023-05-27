@@ -14,6 +14,9 @@ import Footer from '../Pages/Footer/Footer';
 import Header from '../Pages/Header/Header';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import ContactUs from '../Pages/ContactUs/ContactUs';
+import ShowItems from "../Pages/ShowItems/ShowItems";
+import MainPageCard from "../Pages/MainPageCard/MainPageCard";
+import AllToysPage from "../Pages/AllToysPage/AllToysPage";
 
   const router = createBrowserRouter([
     {
@@ -67,7 +70,19 @@ import ContactUs from '../Pages/ContactUs/ContactUs';
   {
       path:"/contactus",
       element:<ContactUs></ContactUs>
-  }]
+  },
+  {
+    path:"/showitems",
+      element:<ShowItems></ShowItems>
+  },
+{
+  path:"/mainpagecard",
+  element:<MainPageCard></MainPageCard>
+},
+{
+  path:"/alltoyspage",
+  element:<AllToysPage></AllToysPage>
+}]
   
     
     },

@@ -9,7 +9,7 @@
         "short_description": "Fast and sleek sports car toy.",
         "long_description": "Experience the thrill of speed with this sleek sports car toy. Its aerodynamic design and vibrant colors make it a must-have for young car enthusiasts.",
         "category": "Sports Car",
-          "seller-name": "Mega Deals",
+          "seller": "Mega Deals",
           "email": "megadeals@example.com",
           "quantity": 10
       
@@ -24,7 +24,7 @@
         "short_description": "Sturdy truck toy for hauling.",
         "long_description": "This truck toy is built to handle heavy loads. It's perfect for transporting small objects and provides hours of imaginative play.",
         "category": "Truck",
-        "seller-name": "Global Traders",
+        "seller": "Global Traders",
       "email": "globaltraders@example.com",
       "quantity": 10
       },
@@ -38,7 +38,7 @@
         "short_description": "Classic regular car toy for everyday fun.",
         "long_description": "This regular car toy is a timeless classic. Its simple design and smooth wheels make it an ideal toy for everyday play.",
         "category": "Regular Car",
-        "seller-name": "Quality Goods",
+        "seller": "Quality Goods",
       "email": "qualitygoods@example.com",
       "quantity": 1
       },
@@ -52,7 +52,7 @@
         "short_description": "Miniature fire truck toy for heroic adventures.",
         "long_description": "Let your child's imagination soar with this mini fire truck toy. They can be a brave firefighter and save the day in their own little world of play.",
         "category": "Mini Fire Truck",
-        "seller-name": "Wholesale Bargains",
+        "seller": "Wholesale Bargains",
         "email": "wholesalebargains@example.com",
         "quantity": 7
       },
@@ -66,7 +66,7 @@
         "short_description": "Miniature police car toy for law enforcement play.",
         "long_description": "With this mini police car toy, your child can become a police officer and enforce the law in their own imaginary world. It's perfect for role-playing adventures.",
         "category": "Mini Police Car",
-        "seller-name": "Prime Supplies",
+        "seller": "Prime Supplies",
         "email": "primesupplies@example.com",
         "quantity": 9
       },
@@ -80,7 +80,7 @@
         "short_description": "Speedy sports car toy for racing fun.",
         "long_description": "Get ready to race with this high-speed sports car toy. Its sleek design and powerful wheels make it the ultimate choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "Value Seller",
+        "seller": "Value Seller",
         "email": "valueseller@example.com",
         "quantity": 9
       },
@@ -94,7 +94,7 @@
         "short_description": "Versatile truck toy for endless play possibilities.",
         "long_description": "This truck toy is designed for all sorts of adventures. Whether it's hauling cargo or exploring rough terrains, it's the perfect companion for young explorers.",
         "category": "Truck",
-        "seller-name": "Value Sellers",
+        "seller": "Value Sellers",
         "email": "valuesellers@example.com",
         "quantity": 10
       },
@@ -108,7 +108,7 @@
         "short_description": "Compact regular car toy for easy handling.",
         "long_description": "This regular car toy is compact and easy to handle, making it a great choice for little hands. Its realistic design and smooth wheels ensure a delightful play experience.",
         "category": "Regular Car",
-        "seller-name": "Discount Warehouse",
+        "seller": "Discount Warehouse",
         "email": "discountwarehouse@example.com",
         "quantity": 9
       },
@@ -122,7 +122,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Let your child's imagination run wild with this mini fire truck toy. They can create thrilling firefighting scenarios and save the day in their own imaginative world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Trade Express",
+        "seller": "Trade Express",
         "email": "tradeexpress@example.com",
         "quantity": 8
       },
@@ -136,7 +136,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "With this mini police car toy, your child can continue their law enforcement adventures. It's perfect for inspiring role-playing and nurturing their sense of justice.",
         "category": "Mini Police Car",
-        "seller-name": "Smart Deals",
+        "seller": "Smart Deals",
         "email": "smartdeals@example.com",
         "quantity": 9
       },
@@ -150,7 +150,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and agility. Its sleek design and advanced features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "Best Buy Co.",
+        "seller": "Best Buy Co.",
       "email": "bestbuyco@example.com",
       "quantity": 8
       },
@@ -164,7 +164,7 @@
         "short_description": "Rugged truck toy for all-terrain exploration.",
         "long_description": "With this rugged truck toy, your child can conquer any terrain. Its durable construction and powerful wheels make it an ideal companion for off-road adventures.",
         "category": "Truck",
-        "seller-name": "The Bargain Shop",
+        "seller": "The Bargain Shop",
         "email": "thebargainshop@example.com",
         "quantity": 7
       },
@@ -178,7 +178,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family outing or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "Supreme Imports",
+        "seller": "Supreme Imports",
         "email": "supremeimports@example.com",
         "quantity": 6
       },
@@ -192,7 +192,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "With this mini fire truck toy, your child can expand their firefighter collection. They can imagine thrilling rescue missions and create a world of firefighting heroism.",
         "category": "Mini Fire Truck",
-        "seller-name": "Gadget World",
+        "seller": "Gadget World",
       "email": "gadgetworld@example.com",
       "quantity": 5
       },
@@ -206,7 +206,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "Global Merchants",
+        "seller": "Global Merchants",
       "email": "globalmerchants@example.com",
       "quantity": 9
       },
@@ -220,7 +220,7 @@
         "short_description": "Stylish and speedy sports car toy for racing enthusiasts.",
         "long_description": "Experience the thrill of speed and style with this sports car toy. Its sleek design, vibrant colors, and powerful performance make it a dream toy for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "Amazing Deals",
+        "seller": "Amazing Deals",
       "email": "amazingdeals@example.com",
       "quantity": 9
       },
@@ -234,7 +234,7 @@
         "short_description": "Heavy-duty truck toy for hauling and transport.",
         "long_description": "This heavy-duty truck toy is perfect for hauling and transporting heavy loads. With its robust construction and realistic features, it's an essential addition to any toy truck collection.",
         "category": "Truck",
-        "seller-name": "Epic Electronics",
+        "seller": "Epic Electronics",
         "email": "epicelectronics@example.com",
         "quantity": 8
 
@@ -249,7 +249,7 @@
         "short_description": "Classic regular car toy for timeless play.",
         "long_description": "This classic regular car toy never goes out of style. Its simple design, smooth wheels, and durable construction ensure hours of fun and imaginative play.",
         "category": "Regular Car",
-        "seller-name": "TechMaster",
+        "seller": "TechMaster",
          "email": "techmaster@example.com",
          "quantity": 9
       },
@@ -263,7 +263,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create exciting rescue missions and save the day in their own firefighting world of play.",
         "category": "Mini Fire Truck",
-        "seller-name": "Gadget Guru",
+        "seller": "Gadget Guru",
 "email": "gadgetguru@example.com",
 "quantity": 8
       },
@@ -277,7 +277,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can engage in thrilling law enforcement scenarios and unleash their imagination.",
         "category": "Mini Police Car",
-        "seller-name": "Digital Delights",
+        "seller": "Digital Delights",
 "email": "digitaldelights@example.com",
 "quantity": 1
 
@@ -292,7 +292,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready for heart-pumping speed with this high-performance sports car toy. Its sleek design, powerful engine, and precise handling make it a thrilling choice for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "Innovative Solutions",
+        "seller": "Innovative Solutions",
 "email": "innovativesolutions@example.com",
 "quantity": 2
       },
@@ -306,7 +306,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "SmartTech",
+        "seller": "SmartTech",
 "email": "smarttech@example.com",
 "quantity": 3
       },
@@ -320,7 +320,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "TechZone",
+        "seller": "TechZone",
         "email": "techzone@example.com",
         "quantity": 2
       },
@@ -334,7 +334,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Gizmo Galaxy",
+        "seller": "Gizmo Galaxy",
 "email": "gizmogalaxy@example.com",
 "quantity": 2
       },
@@ -348,7 +348,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "ElectroExpress",
+        "seller": "ElectroExpress",
 "email": "electroexpress@example.com",
 "quantity": 2
       },
@@ -362,7 +362,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "iGadget World",
+        "seller": "iGadget World",
 "email": "igadgetworld@example.com",
 "quantity": 2
       },
@@ -376,7 +376,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "Digital Dreams",
+        "seller": "Digital Dreams",
 "email": "digitaldreams@example.com",
 "quantity": 2
       },
@@ -390,7 +390,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "TechWhiz",
+        "seller": "TechWhiz",
 "email": "techwhiz@example.com",
 "quantity": 9
       },
@@ -404,7 +404,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechGenius",
+        "seller": "TechGenius",
 "email": "techgenius@example.com",
 "quantity": 2
 
@@ -419,7 +419,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "ElectroTech",
+        "seller": "ElectroTech",
 "email": "electrotech@example.com",
 "quantity": 3
       },
@@ -433,7 +433,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "GizmoMart",
+        "seller": "GizmoMart",
 "email": "gizmomart@example.com",
 "quantity": 5
       },
@@ -447,7 +447,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "TechSolutions",
+        "seller": "TechSolutions",
 "email": "techsolutions@example.com",
 "quantity": 9
       },
@@ -461,7 +461,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "DigitalTech",
+        "seller": "DigitalTech",
 "email": "digitaltech@example.com",
 "quantity": 2
       },
@@ -475,7 +475,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "SmartGadgets",
+        "seller": "SmartGadgets",
 "email": "smartgadgets@example.com",
 "quantity": 3
       },
@@ -489,7 +489,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "GadgetLand",
+        "seller": "GadgetLand",
 "email": "gadgetland@example.com",
 "quantity": 2
       },
@@ -503,7 +503,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "TechWizards",
+        "seller": "TechWizards",
 "email": "techwizards@example.com",
 "quantity": 3
       },
@@ -517,7 +517,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "ElectroEase",
+        "seller": "ElectroEase",
 "email": "electroease@example.com",
 "quantity": 2
       },
@@ -531,7 +531,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "iGadget Emporium",
+        "seller": "iGadget Emporium",
 "email": "igadgetemporium@example.com",
 "quantity": 2
       },
@@ -545,7 +545,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "DigitalWonders",
+        "seller": "DigitalWonders",
 "email": "digitalwonders@example.com",
 "quantity": 9
       },
@@ -559,7 +559,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "GizmoZone",
+        "seller": "GizmoZone",
 "email": "gizmozone@example.com",
 "quantity": 9
       },
@@ -573,7 +573,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "TechPro",
+        "seller": "TechPro",
 "email": "techpro@example.com",
 "quantity": 9
       },
@@ -587,7 +587,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "ElectroXpert",
+        "seller": "ElectroXpert",
 "email": "electroxpert@example.com",
 "quantity": 5
       },
@@ -601,7 +601,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "SmartGizmos",
+        "seller": "SmartGizmos",
 "email": "smartgizmos@example.com",
 "quantity": 9
       },
@@ -615,7 +615,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "GadgetXchange",
+        "seller": "GadgetXchange",
 "email": "gadgetxchange@example.com",
 "quantity": 6
       },
@@ -629,7 +629,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "GadgetGurus",
+        "seller": "GadgetGurus",
       "email": "gadgetgurus@example.com",
       "quantity": 13
       },
@@ -643,7 +643,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "SuperTech Gadgets",
+        "seller": "SuperTech Gadgets",
       "email": "supertech@example.com",
       "quantity": 8
       },
@@ -657,7 +657,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "SuperTech Gadgets",
+        "seller": "SuperTech Gadgets",
       "email": "supertech@example.com",
       "quantity": 8
       },
@@ -671,7 +671,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "Prime Deals",
+        "seller": "Prime Deals",
       "email": "primedeals@example.com",
       "quantity": 12
       },
@@ -685,7 +685,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Gizmo World",
+        "seller": "Gizmo World",
       "email": "gizmoworld@example.com",
       "quantity": 4
       },
@@ -699,7 +699,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "TechWizards",
+        "seller": "TechWizards",
       "email": "techwizards@example.com",
       "quantity": 3
       },
@@ -713,7 +713,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "ElectroMart",
+        "seller": "ElectroMart",
         "email": "electromart@example.com",
         "quantity": 15
       },
@@ -727,7 +727,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "Gadget Universe",
+        "seller": "Gadget Universe",
       "email": "gadgetuniverse@example.com",
       "quantity": 10
       },
@@ -741,7 +741,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "Digital Emporium",
+        "seller": "Digital Emporium",
         "email": "digitalemporium@example.com",
         "quantity": 7
       },
@@ -755,7 +755,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechBazaar",
+        "seller": "TechBazaar",
       "email": "techbazaar@example.com",
       "quantity": 6
       },
@@ -769,7 +769,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "SmartGadget Solutions",
+        "seller": "SmartGadget Solutions",
       "email": "smartgadgets@example.com",
       "quantity": 9
       },
@@ -783,7 +783,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "TechTrends",
+        "seller": "TechTrends",
       "email": "techtrends@example.com",
       "quantity": 11
       },
@@ -797,7 +797,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "FutureTech",
+        "seller": "FutureTech",
       "email": "futuretech@example.com",
       "quantity": 14
       },
@@ -811,7 +811,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "GadgetGenius",
+        "seller": "GadgetGenius",
       "email": "gadgetgenius@example.com",
       "quantity": 18
       },
@@ -825,7 +825,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Innovative Electronics",
+        "seller": "Innovative Electronics",
         "email": "innovative@example.com",
         "quantity": 2
       },
@@ -839,7 +839,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "MegaDeals",
+        "seller": "MegaDeals",
       "email": "megadeals@example.com",
       "quantity": 5
       },
@@ -853,7 +853,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "TechConnect",
+        "seller": "TechConnect",
       "email": "techconnect@example.com",
       "quantity": 10
       },
@@ -867,7 +867,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "DigitalDreams",
+        "seller": "DigitalDreams",
       "email": "digitaldreams@example.com",
       "quantity": 1
       },
@@ -881,7 +881,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "eGizmos",
+        "seller": "eGizmos",
       "email": "egizmos@example.com",
       "quantity": 6
       },
@@ -895,7 +895,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechWorld",
+        "seller": "TechWorld",
         "email": "techworld@example.com",
         "quantity": 9
       },
@@ -910,7 +910,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "SmartSolutions",
+        "seller": "SmartSolutions",
       "email": "smartsolutions@example.com",
       "quantity": 8
       },
@@ -924,7 +924,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "GadgetHub",
+        "seller": "GadgetHub",
         "email": "gadgethub@example.com",
         "quantity": 1
       },
@@ -938,7 +938,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "ElectroDeals",
+        "seller": "ElectroDeals",
       "email": "electrodeals@example.com",
       "quantity": 4
       },
@@ -952,7 +952,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "GizmoLand",
+        "seller": "GizmoLand",
       "email": "gizmoland@example.com",
       "quantity": 3
       },
@@ -966,7 +966,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechHub",
+        "seller": "TechHub",
       "email": "techhub@example.com",
       "quantity": 6
       },
@@ -980,7 +980,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "Gadget World",
+        "seller": "Gadget World",
       "email": "gadgetworld@example.com",
       "quantity": 9
       },
@@ -994,7 +994,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "Digital Express",
+        "seller": "Digital Express",
         "email": "digitalexpress@example.com",
         "quantity": 10
       },
@@ -1008,7 +1008,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "TechEmpire",
+        "seller": "TechEmpire",
       "email": "techempire@example.com",
       "quantity": 5
       },
@@ -1022,7 +1022,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "Smart Solutions",
+        "seller": "Smart Solutions",
       "email": "smartsolutions@example.com",
       "quantity": 1
       },
@@ -1036,7 +1036,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Elite Gadgets",
+        "seller": "Elite Gadgets",
       "email": "elitegadgets@example.com",
       "quantity": 1
       },
@@ -1050,7 +1050,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-         "seller-name": "TechMasters",
+         "seller": "TechMasters",
         "email": "techmasters@example.com",
         "quantity": 1
       },
@@ -1064,7 +1064,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "E-Tech Solutions",
+        "seller": "E-Tech Solutions",
         "email": "etechsolutions@example.com",
         "quantity": 1
       },
@@ -1078,7 +1078,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-         "seller-name": "Gadget Haven",
+         "seller": "Gadget Haven",
         "email": "gadgethaven@example.com",
         "quantity": 4
       },
@@ -1092,7 +1092,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "Digital World",
+        "seller": "Digital World",
       "email": "digitalworld@example.com",
       "quantity": 10
       },
@@ -1106,7 +1106,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechWorld Express",
+        "seller": "TechWorld Express",
       "email": "techworld@example.com",
       "quantity": 8
       },
@@ -1120,7 +1120,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "Global Electronics",
+        "seller": "Global Electronics",
       "email": "globalelectronics@example.com",
       "quantity": 12
       },
@@ -1134,7 +1134,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "SmartGadget Solutions",
+        "seller": "SmartGadget Solutions",
       "email": "smartgadget@example.com",
       "quantity": 3
       },
@@ -1148,7 +1148,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "Digital Deals",
+        "seller": "Digital Deals",
         "email": "digitaldeals@example.com",
         "quantity": 5
       },
@@ -1162,7 +1162,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "Gizmo Palace",
+        "seller": "Gizmo Palace",
         "email": "gizmopalace@example.com",
         "quantity": 9
       },
@@ -1176,7 +1176,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "TechTrends",
+        "seller": "TechTrends",
         "email": "techtrends@example.com",
         "quantity": 6
       },
@@ -1190,7 +1190,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "ElectroMart",
+        "seller": "ElectroMart",
       "email": "electromart@example.com",
       "quantity": 7
       },
@@ -1204,7 +1204,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "Gadget Galaxy",
+        "seller": "Gadget Galaxy",
       "email": "gadgetgalaxy@example.com",
       "quantity": 4
     },
@@ -1219,7 +1219,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "Innovative Electronics",
+        "seller": "Innovative Electronics",
       "email": "innovative@example.com",
       "quantity": 2
       },
@@ -1233,7 +1233,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "SwiftTech",
+        "seller": "SwiftTech",
       "email": "swifttech@example.com",
       "quantity": 7
       },
@@ -1247,7 +1247,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Digital Solutions",
+        "seller": "Digital Solutions",
       "email": "digitalsolutions@example.com",
       "quantity": 2
       },
@@ -1261,7 +1261,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "Gadget Guru",
+        "seller": "Gadget Guru",
         "email": "gadgetguru@example.com",
         "quantity": 5
       },
@@ -1275,7 +1275,7 @@
         "short_description": "High-performance sports car toy for speed enthusiasts.",
         "long_description": "Get ready to feel the thrill of speed with this high-performance sports car toy. Its sleek design, powerful engine, and aerodynamic features make it a dream toy for racing fanatics.",
         "category": "Sports Car",
-        "seller-name": "TechZone",
+        "seller": "TechZone",
       "email": "techzone@example.com",
       "quantity": 9
       },
@@ -1289,7 +1289,7 @@
         "short_description": "Versatile and rugged truck toy for all-terrain play.",
         "long_description": "This versatile and rugged truck toy can handle any adventure. Whether it's hauling cargo, exploring rough terrains, or building construction sites, it's the perfect companion for endless play.",
         "category": "Truck",
-        "seller-name": "ElectroTech",
+        "seller": "ElectroTech",
         "email": "electrotech@example.com",
         "quantity": 16
       },
@@ -1303,7 +1303,7 @@
         "short_description": "Versatile regular car toy for various play scenarios.",
         "long_description": "This regular car toy offers endless possibilities for imaginative play. Whether it's a family road trip or a thrilling race, it's a reliable toy for all sorts of adventures.",
         "category": "Regular Car",
-        "seller-name": "SmartBuy",
+        "seller": "SmartBuy",
         "email": "smartbuy@example.com",
         "quantity": 8
       },
@@ -1317,7 +1317,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can imagine thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "Gadget Central",
+        "seller": "Gadget Central",
       "email": "gadgetcentral@example.com",
       "quantity": 7
       },
@@ -1331,7 +1331,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "TechPro",
+        "seller": "TechPro",
       "email": "techpro@example.com",
       "quantity": 3
       },
@@ -1345,7 +1345,7 @@
         "short_description": "High-performance sports car toy for ultimate speed.",
         "long_description": "This high-performance sports car toy is built for speed and style. Its sleek design, powerful engine, and aerodynamic features make it the perfect choice for racing enthusiasts.",
         "category": "Sports Car",
-        "seller-name": "Digital Warehouse",
+        "seller": "Digital Warehouse",
       "email": "digitalwarehouse@example.com",
       "quantity": 1
       },
@@ -1359,7 +1359,7 @@
         "short_description": "Heavy-duty truck toy for transporting heavy loads.",
         "long_description": "This heavy-duty truck toy is designed to handle any hauling job. Whether it's construction materials or toy cargo, it's the perfect toy for young truck enthusiasts.",
         "category": "Truck",
-        "seller-name": "GadgetZone",
+        "seller": "GadgetZone",
       "email": "gadgetzone@example.com",
       "quantity": 1
       },
@@ -1373,7 +1373,7 @@
         "short_description": "Classic regular car toy for hours of fun.",
         "long_description": "This classic regular car toy is a must-have for any toy car collection. Its timeless design, smooth wheels, and sturdy construction ensure endless hours of imaginative play.",
         "category": "Regular Car",
-        "seller-name": "TechSavers",
+        "seller": "TechSavers",
       "email": "techsavers@example.com",
       "quantity": 6
       },
@@ -1387,7 +1387,7 @@
         "short_description": "Another miniature fire truck toy for heroic adventures.",
         "long_description": "Expand your child's fire truck toy collection with this mini fire truck toy. They can create thrilling rescue missions and save the day in their own imaginative firefighting world.",
         "category": "Mini Fire Truck",
-        "seller-name": "SmartTech",
+        "seller": "SmartTech",
       "email": "smarttech@example.com",
       "quantity": 4
       },
@@ -1401,7 +1401,7 @@
         "short_description": "Another miniature police car toy for law enforcement play.",
         "long_description": "This mini police car toy is perfect for enhancing your child's police role-playing adventures. They can enforce the law, maintain peace, and have fun in their own imaginative world.",
         "category": "Mini Police Car",
-        "seller-name": "GadgetLand",
+        "seller": "GadgetLand",
         "email": "gadgetland@example.com",
         "quantity": 2
       }

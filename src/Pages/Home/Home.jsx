@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import AboutUs from '../AboutUs/AboutUs';
 import Blogs from '../Blogs/Blogs';
@@ -6,8 +6,9 @@ import ContactUs from '../ContactUs/ContactUs';
 
 import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
+import MainPageCard from '../MainPageCard/MainPageCard';
 import Offer from '../Offer/Offer';
-import ShoppingItems from '../ShoppingItems/ShoppingItems';
+// import ShoppingItems from '../ShoppingItems/ShoppingItems';
 import TopBrand from '../TopBrand/TopBrand';
 
 
@@ -22,7 +23,8 @@ const Home = () => {
        
         <Header></Header>
         <Gallery></Gallery>
-        <ShoppingItems></ShoppingItems>
+        {/* <ShoppingItems></ShoppingItems> */}
+        <MainPageCard></MainPageCard>
         <Offer></Offer>
         <Blogs></Blogs>
         <ContactUs></ContactUs>
