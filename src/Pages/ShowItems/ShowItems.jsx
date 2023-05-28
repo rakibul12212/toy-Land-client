@@ -41,7 +41,7 @@ const ShowItems = ({item}) => {
             href="#"
             className="btn bg-slate-500 hover:bg-slate-700 text-white"
           >
-            Add to cart
+            View Details
           </a>
         </div>
       </Card>

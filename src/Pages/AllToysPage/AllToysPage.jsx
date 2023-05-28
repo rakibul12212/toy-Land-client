@@ -53,15 +53,10 @@ const AllToysPage = () => {
           type="text"
           placeholder="Search by Toy Name"
           value={searchQuery}
-          onChange={handleSearch}
+           onChange={handleSearch}
           className="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
-        <button
-          onClick={handleSearch}
-          className="px-4 py-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
-        >
-          Search
-        </button>
+       
       </div>
      
 

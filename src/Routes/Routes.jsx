@@ -17,6 +17,7 @@ import ContactUs from '../Pages/ContactUs/ContactUs';
 import ShowItems from "../Pages/ShowItems/ShowItems";
 import MainPageCard from "../Pages/MainPageCard/MainPageCard";
 import AllToysPage from "../Pages/AllToysPage/AllToysPage";
+// import ViewDetails from "../Pages/ViewDetails/ViewDetails";
 
   const router = createBrowserRouter([
     {
@@ -82,7 +83,12 @@ import AllToysPage from "../Pages/AllToysPage/AllToysPage";
 {
   path:"/alltoyspage",
   element:<AllToysPage></AllToysPage>
-}]
+},
+// {
+//   path:"/addatoy",
+//   element:<ViewDetails></ViewDetails>
+// }
+]
   
     
     },

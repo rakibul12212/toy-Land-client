@@ -10,6 +10,7 @@ import MainPageCard from '../MainPageCard/MainPageCard';
 import Offer from '../Offer/Offer';
 // import ShoppingItems from '../ShoppingItems/ShoppingItems';
 import TopBrand from '../TopBrand/TopBrand';
+import ViewDetails from '../ViewDetails/ViewDetails';
 
 
 
@@ -30,6 +31,7 @@ const Home = () => {
         <ContactUs></ContactUs>
         <AboutUs></AboutUs>
         <TopBrand></TopBrand>
+        <ViewDetails></ViewDetails>
         </>
     );
 };
