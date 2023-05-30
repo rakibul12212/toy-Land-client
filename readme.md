@@ -6,9 +6,9 @@
 
 - firebase config
 
-- client repo:
+- client repo: https://github.com/rakibul12212/toy-cart-client
 
-- server repo:
+- server repo: https://github.com/rakibul12212/toy-cart-server
 
 ## server site : https://toy-cart-server-rakibul12212.vercel.app/
 
