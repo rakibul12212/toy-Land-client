@@ -15,32 +15,35 @@ const TopBrand = () => {
           
           <Marquee direction="right" speed={100} delay={5}>
             <div className="image_wrapper">
-              <img src="/src/assets/img1.png" alt="" />
+              <img src="/dist/assets/img1.png" alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img2.png' alt="" />
+              <img src='/dist/assets/img2.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img3.png' alt="" />
+              <img src='/dist/assets/img3.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img4.png' alt="" />
+              <img src='/dist/assets/img4.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img5.png' alt="" />
+              <img src='/dist/assets/img5.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img6.png' alt="" />
+              <img src='/dist/assets/img6.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img7.png' alt="" />
+              <img src='/dist/assets/img7.png' alt="" />
             </div>
             
             <div className="image_wrapper">
-              <img src='/src/assets/img9.png' alt="" />
+              <img src='/dist/assets/img8.png' alt="" />
             </div>
             <div className="image_wrapper">
-              <img src='/src/assets/img10.png' alt="" />
+              <img src='/dist/assets/img9.png' alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src='/dist/assets/img10.png' alt="" />
             </div>
           
           </Marquee>
