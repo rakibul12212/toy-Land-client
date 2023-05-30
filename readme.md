@@ -1,10 +1,12 @@
-## Roadmap
+## ToyLand
 
 - install react router
 
 - firebase authentication
 
 - firebase config
+
+- firebase deploy
 
 - client repo: https://github.com/rakibul12212/toy-cart-client
 
