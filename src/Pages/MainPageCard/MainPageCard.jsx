@@ -44,7 +44,7 @@ const MainPageCard = () => {
               ))}
           </div>
         </Tabs.Item>
-        <Tabs.Item title="CELEBRITY CAR">
+        <Tabs.Item title="REGULER CAR">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-col-4 justify-items-center gap-4">
             {items
               .filter(item => item.category === 'Regular Car')
@@ -62,7 +62,7 @@ const MainPageCard = () => {
               ))}
           </div>
         </Tabs.Item>
-        <Tabs.Item title="FIRE TRUCK">
+        <Tabs.Item title="MINI FIRE TRUCK">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-col-4 justify-items-center gap-6">
             {items
               .filter(item => item.category === 'Mini Fire Truck')

@@ -1,42 +1,160 @@
-import React from 'react';
+
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+ import React, { useState } from 'react';
 import './SignIn.css'
+import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+import CssBaseline from '@mui/material/CssBaseline';
+import TextField from '@mui/material/TextField';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+import Link from '@mui/material/Link';
+import Grid from '@mui/material/Grid';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { NavLink, useLocation } from 'react-router-dom';
+import { Google } from '@mui/icons-material';
+import { Box } from '@mui/system';
+import useAuth from '../../Hooks/useAuth';
 
 const SignIn = () => {
+  const defaultTheme = createTheme();
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+  const {
+    handlePassword,
+    handleEmail,
+    handleResetPassword,
+    signInWithGoogle,
+    handleNameChange,
+    toggleLogin,
+    isLogin,
+    setError,
+    setUser,
+    error,
+    user,
+    name,
+  } = useAuth();
+  const auth = getAuth();
+  const location = useLocation();
+  
+  const redirect_url = location.state?.from || "/home";
+  // Handle Google Sign in or sign up
+  const handleGoogleSignUp = () => {
+    signInWithGoogle()
+      .then((result) => {
+        setUser(result.user);
+        
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        setError(errorMessage);
+      });
+  };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const data = new FormData(event.currentTarget);  
+          setEmail(data.get('email'))
+          setPass(data.get('password'))
+          signInWithEmailAndPassword(auth, email, pass)
+          .then((result) => {
+            setError("");
+            const destination = location.state?.from || "/";
+            history.push(destination);
+          })
+          .catch((error) => {
+            const errorMessage = error.message;
+            setError(errorMessage);
+          }); 
+        
+      };
   return (
-    <div className='flex flex-col md:flex-row bg-orange-50'>
-      <div className='md:w-1/2'>
-        <img src="https://images.unsplash.com/photo-1546776230-bb86256870ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=510&q=80" alt="" className='h-full p-5' />
-      </div>
-      <div className='md:w-1/2'>
-        <div className='p-5'>
-          <img src="logo.jpg" alt="logo" className='w-6' />
-          <h1 className='text-bold text-3xl text-slate-600'>Hello Again!</h1>
-          <p className='text-slate-400'>Welcome back, you've been missed!</p>
-        </div>
-        <div className="form-control w-full max-w-xs p-5">
-          <input type="text" placeholder="username" className="input input-bordered w-full max-w-xs m-1" />
-          <input type="password" placeholder="password" className="input input-bordered w-full max-w-xs m-1" />
-        </div>
-        <div className='p-2'>
-          <div className='flex items-center'>
-            <input type="checkbox" name="remember me" id="" className='w-5 h-5 mr-2' />
-            <p>Remember me</p>
-          </div>
-          <p className='text-green-400 p-5'>Forgot password?</p>
-        </div>
-        <div className='p-6'>
-          <button className="btn btn-success text-white">Sign In</button>
-        </div>
-        <div className='p-5'>
-          <p>Don't have an account? <span className='text-green-400'>Sign up for free</span></p>
-          <p>Or connect with:</p>
-          <div className='flex gap-4 w-6'>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" alt="Google logo" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook logo" />
-          </div>
-        </div>
-      </div>
-    </div>
+    
+    <ThemeProvider theme={defaultTheme}>
+      <Container component="main" maxWidth="xs">
+        <CssBaseline />
+        <Box
+          sx={{
+            marginTop: 8,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}
+        >
+          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+            <LockOutlinedIcon />
+          </Avatar>
+          <Typography component="h1" variant="h5">
+            Sign in
+          </Typography>
+          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              id="email"
+              label="Email Address"
+              name="email"
+              autoComplete="email"
+              autoFocus
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              label="Password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+            />
+            {
+              <ul>
+                <li>{error}</li>
+              </ul>
+            }
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Remember me"
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+            >
+              Sign In
+            </Button>
+            <Grid container>
+            {isLogin && (
+              <Grid item xs>
+              
+                <Link as={NavLink} to='/resetPass' onClick={handleResetPassword} variant="body2" className='text-blue-500'>
+                  Forgot password?
+                </Link>
+                
+              </Grid>
+              )}
+              <Grid item>
+             
+                <Link as={NavLink} to='/signUp' variant="body2"className='text-blue-500'>
+                  {"Don't have an account? Sign Up"}
+                </Link>
+                
+              </Grid>
+            </Grid>
+          </Box>
+          <button onClick={handleGoogleSignUp} type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-large text-bold rounded-lg text-sm my-7 px-5 py-2.5 text-center mr-2 mb-2">
+            <Google />
+            </button>
+        </Box>
+        
+      </Container>
+    </ThemeProvider>
+
   );
 };
 

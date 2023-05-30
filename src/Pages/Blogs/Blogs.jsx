@@ -5,7 +5,7 @@ import './Blogs.css'
 const Blogs = () => {
   return (
     <>
-<h1 className='text-4xl text-bold text-center p-10'>Latest Blogs</h1>
+<h1 className='text-bold text-4xl text-center p-10 bg-slate-100'>Latest Blogs</h1>
 <Accordion className='pt-5 pb-5'>
   <Accordion.Panel>
     <Accordion.Title>

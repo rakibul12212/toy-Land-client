@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-<div className="h-56 sm:h-64 xl:h-80 2xl:h-96  ">
+<div className="h-56 sm:h-64 xl:h-80 2xl:h-96 ">
     <Carousel >
       <img
         src="https://wallpaperaccess.com/full/3715894.jpg"

@@ -9,7 +9,7 @@ const Footer = () => {
             <div>
                 <div className='flex'>
                     <img src="logo.jpg" alt="logo" className='w-8'/>
-                    <p className='text-bold text-2xl'>ToyLand</p>
+                    <p  className='text-bold text-2xl'><a href="/"></a>ToyLand</p>
                 </div>
                 <p className='text-sm p-2'>Toy Land is a vibrant website offering a wide range of toys, games, and accessories. </p>
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
         <div>
            <p className='text-bold text-2xl'>Company</p>
            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/" >Home</a></p>
-            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">About</a></p>
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/aboutus">About us</a></p>
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/blogs">Blogs</a></p>
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/addatoy">Add A Toy</a></p>
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/alltoys">All Toys</a></p>
@@ -47,14 +47,14 @@ const Footer = () => {
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/signin">Order Tracking</a></p>
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">My account</a></p>
             <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">FAQ</a></p>
-            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/">Contact us</a></p> 
+            <p className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300"><a href="/contactus">Contact us</a></p> 
         </div>
 
         <div>
         <p className='text-bold text-2xl'>Customer Care</p>
         <p className='text-sm p-2'>Subscribe to our weekly Newwsletter and receive updates via email.</p>
         <input type="email" placeholder="email@example.com" className="input input-bordered w-full max-w-xs m-2"/>
-        <button className="btn bg-slate-500 hover:bg-slate-700 text-white ml-2">Subscribe</button>
+        <button  type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 ms-2" >Subscribe</button>
         </div>
     </div>
 

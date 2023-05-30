@@ -1,7 +1,27 @@
 import { Table } from 'flowbite-react';
 import React, { useState, useEffect } from 'react';
-
+import useAuth from '../../Hooks/useAuth';
+import ViewDetailsModal from '../ViewDetailsModal/ViewDetailsModal'
 const AllToysPage = () => {
+
+  const {
+    handlePassword,
+    handleEmail,
+    handleResetPassword,
+    signInWithGoogle,
+    handleNameChange,
+    toggleLogin,
+    isLogin,
+    setError,
+    setUser,
+    error,
+    user,
+    name,
+  } = useAuth();
+const [modalOpen, setModalOpen] = useState(false); 
+
+const [stoy,setStoy]=useState([]);
+
   const [toys, setToys] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredToys, setFilteredToys] = useState([]);
@@ -30,11 +50,22 @@ const AllToysPage = () => {
     setFilteredToys(filtered);
   };
 
-  const handleViewDetails = (toyId, seller) => {
+  const handleViewDetails = (id) => {
+        
     const isLoggedIn = checkUserLoggedIn();
     if (isLoggedIn) {
       // Redirect to toy details page
-      console.log(`View Details clicked for toy ID: ${toyId}`);
+      setModalOpen(true);
+      fetch(`http://localhost:5000/toys/${id}`)
+      .then(response => response.json())
+      .then(data => {
+        // Process the toy details and show them in a modal or redirect to a details page
+        setStoy(data)
+        
+        console.log(stoy)
+      })
+      
+      console.log(`View Details clicked for toy ID: ${id}`);
     } else {
       // Redirect to login page
       console.log('User not logged in');
@@ -42,9 +73,18 @@ const AllToysPage = () => {
   };
 
   const checkUserLoggedIn = () => {
-    return false; // Replace with your actual authentication check
+    if(user.email)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
   };
 
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-2xl font-bold mb-4">All Toys</h1>
@@ -85,7 +125,9 @@ const AllToysPage = () => {
   </Table.Head>
   <Table.Body className="divide-y">
     
-  {filteredToys.slice(0, limit).map(toy => (  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  {filteredToys.slice(0, limit).map(toy => (  <Table.Row
+  key={toy._id}
+  className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
       
       {toy.seller}
@@ -105,8 +147,16 @@ const AllToysPage = () => {
       <Table.Cell>
      
       <button
-       onClick={() => handleViewDetails(toy.id, toy.seller)} 
-       type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View Details</button>
+         onClick={() => handleViewDetails(toy._id, stoy)} 
+         type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View Details</button>
+        <ViewDetailsModal 
+        key={stoy._id}
+        stoy={stoy}
+        open={modalOpen}
+        onClose={handleCloseModal}
+        
+        />
+
       </Table.Cell>
     </Table.Row>
   
