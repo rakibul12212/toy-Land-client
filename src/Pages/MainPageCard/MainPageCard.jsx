@@ -8,7 +8,7 @@ const MainPageCard = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const response = await fetch("http://localhost:5000/toys");
+        const response = await fetch("https://toy-cart-server-rakibul12212.vercel.app/toys");
         const data = await response.json();
         setItems(data);
       } catch (error) {

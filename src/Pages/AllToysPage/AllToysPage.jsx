@@ -35,7 +35,7 @@ const [stoy,setStoy]=useState([]);
   }, []);
 
   const fetchToysData = () => {
-    return fetch('http://localhost:5000/toys')
+    return fetch('https://toy-cart-server-rakibul12212.vercel.app/toys')
       .then(response => response.json())
       .then(data => data);
   };
@@ -56,7 +56,7 @@ const [stoy,setStoy]=useState([]);
     if (isLoggedIn) {
       // Redirect to toy details page
       setModalOpen(true);
-      fetch(`http://localhost:5000/toys/${id}`)
+      fetch(`https://toy-cart-server-rakibul12212.vercel.app/toys/${id}`)
       .then(response => response.json())
       .then(data => {
         // Process the toy details and show them in a modal or redirect to a details page
