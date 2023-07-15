@@ -2,6 +2,7 @@ import './Navbar.css'
 import { Avatar, DarkThemeToggle, Dropdown, Flowbite, Navbar } from 'flowbite-react';
 import useAuth from '../../Hooks/useAuth';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.jpg'
 
 const Navbars = () => {
   
@@ -16,9 +17,9 @@ const Navbars = () => {
   
   <Navbar.Brand as={Link} to="/">
     <img
-      src="logo.jpg"
+      src={logo}
       className="mr-3 h-6 sm:h-9"
-      alt="Flowbite Logo"
+      alt="Logo"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Toy Land

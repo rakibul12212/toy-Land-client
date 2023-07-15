@@ -1,6 +1,8 @@
 import React from 'react';
+import useTitle from '../../Hooks/useTitle';
 import './ContactUs.css'
 const ContactUs = () => {
+    useTitle('Contact Us')
     return (
         <>
         <div>

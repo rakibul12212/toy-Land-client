@@ -7,6 +7,8 @@ import { Card } from 'flowbite-react';
 import ViewDetailsModal from '../ViewDetailsModal/ViewDetailsModal';
 import { useState } from 'react';
 import useAuth from '../../Hooks/useAuth';
+import { Link } from 'react-router-dom';
+import Loader from '../Loader/Loader';
      
 
 const ShowItems = ({item}) => {
@@ -23,9 +25,14 @@ const ShowItems = ({item}) => {
     setUser,
     error,
     user,
+    isLoading,
+
   } = useAuth(); 
   const {img, name,rating,price }=item;
   
+  if(isLoading){
+    return <Loader></Loader>
+  }
 const [modalOpen, setModalOpen] = useState(false); 
 
 const [stoy,setStoy]=useState([]);
@@ -36,7 +43,7 @@ const [stoy,setStoy]=useState([]);
     if (isLoggedIn) {
       // Redirect to toy details page
       setModalOpen(true);
-      fetch(`https://toy-cart-server-rakibul12212.vercel.app/toys/${id}`)
+      fetch(`https://toy-cart-server-rakibul12212.vercel.app//toys/${id}`)
       .then(response => response.json())
       .then(data => {
         // Process the toy details and show them in a modal or redirect to a details page
@@ -97,9 +104,9 @@ const handleCloseModal = () => {
           <span className="text-3xl  text-gray-900 dark:text-white">
             <span className='text-4xl'>$</span>{price}
           </span>
-          <button
-         onClick={() => handleViewDetails(item._id, stoy)} 
-         type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View Details</button>
+          <Link to={`/toydetails/${item._id}`}><button
+        //  onClick={() => handleViewDetails(item._id, stoy)} 
+         type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">View Details</button></Link>
         <ViewDetailsModal 
         key={stoy._id}
         stoy={stoy}

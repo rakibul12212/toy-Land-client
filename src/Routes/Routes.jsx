@@ -17,6 +17,9 @@ import ContactUs from '../Pages/ContactUs/ContactUs';
 import ShowItems from "../Pages/ShowItems/ShowItems";
 import MainPageCard from "../Pages/MainPageCard/MainPageCard";
 import AllToysPage from "../Pages/AllToysPage/AllToysPage";
+import PrivateRoute from "./PrivateRoute";
+import ToyDetails from "../Pages/ToyDetails/ToyDetails";
+import { async } from "@firebase/util";
 
 
   const router = createBrowserRouter([
@@ -34,11 +37,11 @@ import AllToysPage from "../Pages/AllToysPage/AllToysPage";
     },
     {
       path:"/addatoy",
-      element:<Addatoy></Addatoy>
+      element:<PrivateRoute><Addatoy></Addatoy></PrivateRoute>
     },
     {
       path:"/mytoys",
-      element:<Mytoys></Mytoys>
+      element:<PrivateRoute><Mytoys></Mytoys></PrivateRoute>
     },
     {
       path:"/blogs",
@@ -84,6 +87,11 @@ import AllToysPage from "../Pages/AllToysPage/AllToysPage";
   path:"/alltoyspage",
   element:<AllToysPage></AllToysPage>
 },
+{
+  path:"/toydetails/:id",
+  loader: async ({params})=>fetch (`https://toy-cart-server-rakibul12212.vercel.app/toys/${params.id}`),
+  element:<PrivateRoute><ToyDetails></ToyDetails></PrivateRoute>
+}
 
 ]
   

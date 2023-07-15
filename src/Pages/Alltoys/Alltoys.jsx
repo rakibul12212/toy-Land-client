@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import useTitle from '../../Hooks/useTitle';
 import AllToysPage from '../AllToysPage/AllToysPage';
 //import ShowItems from '../ShowItems/ShowItems';
 import './Alltoys.css'
 
 const Alltoys = () => {
+  
 
     const [items, setItems] = useState([]);
 
@@ -20,7 +22,7 @@ const Alltoys = () => {
 
     fetchItems();
   }, []);
-
+  useTitle('ALL Toys')
     return (
         <>
          

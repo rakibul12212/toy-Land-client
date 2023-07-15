@@ -48,6 +48,7 @@ const SignIn = () => {
     signInWithGoogle()
       .then((result) => {
         setUser(result.user);
+        navigate(from,{replace:true})
         
       })
       .catch((error) => {

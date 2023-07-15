@@ -12,7 +12,7 @@
 
 - server repo: https://github.com/rakibul12212/toy-cart-server
 
-## server site : https://toy-cart-server-rakibul12212.vercel.app/
+## server site : https://toy-cart-server-rakibul12212.vercel.app//
 
-## live website: https://toy-shop-827ff.web.app/
+## live website: https://toy-cart-server-rakibul12212.vercel.app/
 

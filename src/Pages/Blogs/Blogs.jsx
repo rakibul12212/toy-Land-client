@@ -1,8 +1,10 @@
 import { Accordion } from 'flowbite-react';
 import React from 'react';
+import useTitle from '../../Hooks/useTitle';
 import './Blogs.css'
 
 const Blogs = () => {
+  useTitle('Blog')
   return (
     <>
 <h1 className='text-bold text-4xl text-center p-10 bg-slate-100'>Latest Blogs</h1>

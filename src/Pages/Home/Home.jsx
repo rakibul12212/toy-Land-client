@@ -1,5 +1,6 @@
 
 
+import useTitle from '../../Hooks/useTitle';
 import AboutUs from '../AboutUs/AboutUs';
 import Blogs from '../Blogs/Blogs';
 import ContactUs from '../ContactUs/ContactUs';
@@ -11,6 +12,7 @@ import TopBrand from '../TopBrand/TopBrand';
 import './Home.css'
 
 const Home = () => {
+    useTitle('home')
     return (
         <>
        

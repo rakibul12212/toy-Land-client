@@ -1,9 +1,10 @@
 import { Table } from 'flowbite-react';
 import React, { useState, useEffect } from 'react';
 import useAuth from '../../Hooks/useAuth';
+import useTitle from '../../Hooks/useTitle';
 import ViewDetailsModal from '../ViewDetailsModal/ViewDetailsModal'
 const AllToysPage = () => {
-
+  useTitle('About')
   const {
     handlePassword,
     handleEmail,

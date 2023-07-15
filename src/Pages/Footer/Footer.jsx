@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import logo from '../../assets/logo.jpg'
 
 const Footer = () => {
   return (
@@ -8,7 +9,11 @@ const Footer = () => {
         <div>
             <div>
                 <div className='flex'>
-                    <img src="logo.jpg" alt="logo" className='w-8'/>
+                <img
+      src={logo}
+      className="mr-3 h-6 sm:h-9"
+      alt="Logo"
+    />
                     <p  className='text-bold text-2xl'><a href="/"></a>ToyLand</p>
                 </div>
                 <p className='text-sm p-2'>Toy Land is a vibrant website offering a wide range of toys, games, and accessories. </p>
