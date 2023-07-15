@@ -15,7 +15,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, getAuth, updateProfile } from 'firebase/auth';
 import { Google } from '@mui/icons-material';
 import useAuth from '../../Hooks/useAuth';
@@ -47,14 +47,15 @@ const SignUp = () => {
   } = useAuth();
   const auth = getAuth();
   const location = useLocation();
-  
-  const redirect_url = location.state?.from || "/home";
+  const navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
   // Handle Google Sign in or sign up
   const handleGoogleSignUp = () => {
     signInWithGoogle()
       .then((result) => {
         setUser(result.user);
-        history.push(redirect_url);
+        // history.push(redirect_url);
+        navigate(from,{replace:true})
         saveUser(
           result.user.email,
           result.user.displayName,
@@ -93,9 +94,10 @@ const SignUp = () => {
                 updateProfile(auth.currentUser, {
                   displayName: name,
                 })
+                navigate(from,{replace:true})
                   .then(() => {})
                   .catch((error) => {});
-                history.push(redirect_url);
+                // history.push(redirect_url);
               })
               .catch((err) => {
                 const errorMessage = err.message;

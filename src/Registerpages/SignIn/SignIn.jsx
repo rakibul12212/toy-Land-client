@@ -14,7 +14,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { Google } from '@mui/icons-material';
 import { Box } from '@mui/system';
 import useAuth from '../../Hooks/useAuth';
@@ -39,8 +39,10 @@ const SignIn = () => {
   } = useAuth();
   const auth = getAuth();
   const location = useLocation();
-  
-  const redirect_url = location.state?.from || "/home";
+
+  const navigate = useNavigate();
+
+  const from = location.state?.from?.pathname || "/";
   // Handle Google Sign in or sign up
   const handleGoogleSignUp = () => {
     signInWithGoogle()
@@ -62,7 +64,7 @@ const SignIn = () => {
           signInWithEmailAndPassword(auth, email, pass)
           .then((result) => {
             setError("");
-            const destination = location.state?.from || "/";
+            navigate(from,{replace:true})
             history.push(destination);
           })
           .catch((error) => {
