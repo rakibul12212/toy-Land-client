@@ -101,7 +101,8 @@ const [stoy,setStoy]=useState([]);
       </div>
      
 
-<Table>
+<div className="overflow-x-auto">
+<Table className="table-auto w-full">
   <Table.Head>
     <Table.HeadCell>
       Seller Name
@@ -167,6 +168,7 @@ const [stoy,setStoy]=useState([]);
     
   </Table.Body>
 </Table>
+</div>
     </div>
   );
 };
